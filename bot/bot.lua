@@ -1,4 +1,4 @@
--- #Beyond Reborn Robot
+ 403343189-- #Beyond Reborn Robot
 -- #@BeyondTeam
 
 tdcli = dofile('./tg/tdcli.lua')
@@ -19,7 +19,7 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 plugins = {}
-helper_username = 'ExampleHelperBot'  -- Input Helper Username Here Without @
+helper_username = 'ExampleHelperBot' 403343189 -- Input Helper Username Here Without @
 
 function do_notify (user, msg)
 	local n = notify.Notification.new(user, msg)
